@@ -1,0 +1,225 @@
+/* LoginPopup.css */
+.login-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.login-popup-container {
+  width: 100%;
+  max-width: 320px;
+  padding: 0 15px;
+}
+
+.login-popup {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #888;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.popup-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.popup-header h2 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.popup-header p {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-group {
+  position: relative;
+  line-height: 1;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.login-form input {
+  width: 80%;
+  padding: 10px 12px 10px 32px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #0a4da3;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  margin: 5px 0;
+}
+
+.form-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #555;
+}
+
+.form-options a {
+  color: #0a4da3;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #0a4da3, #00b4b4);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.social-login {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.social-login p {
+  color: #666;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.social-login p::before,
+.social-login p::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 25%;
+  height: 1px;
+  background: #eee;
+}
+
+.social-login p::before {
+  left: 0;
+}
+
+.social-login p::after {
+  right: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.register-cta {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+.register-cta a {
+  color: #0a4da3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Add these to your existing LoginPopup.css */
+
+.error {
+  border-color: #ff4444 !important;
+}
+
+.error-message {
+  color: #ff4444;
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: -15px;
+  left: 32px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #0a4da3;
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.75rem;
+}
+
+.toggle-button:hover {
+  text-decoration: underline;
+}
+
+/* Adjust the form spacing for signup view */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 10px;
+}

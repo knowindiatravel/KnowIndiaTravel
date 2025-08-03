@@ -1,0 +1,280 @@
+.hidden-gems-container {
+  width: 100%;
+  overflow: hidden;
+  /* background: linear-gradient(135deg, #1a4b8c 0%, #0c7b93 50%, #00a896 100%); */
+  padding: 1rem 0;
+  color: black;
+  padding-bottom: 3rem;
+}
+
+.background-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-section {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.header-section h3 {
+  font-size: 24px;
+  color: black(255, 255, 255, 0.8);
+  margin-bottom: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.header-section h2 {
+  font-size: 42px;
+  color: black;
+  margin-top: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.header-decoration {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #00d4ff, #00ffaa);
+  margin: 15px auto;
+  border-radius: 2px;
+}
+
+.theme-carousel {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.theme-wrapper {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  flex-shrink: 0;
+}
+
+.theme-card {
+  flex-shrink: 0;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.gem-card {
+  display: block;
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gem-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.gem-card:hover .image-container img {
+  transform: scale(1.05);
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.4) 70%,
+    transparent 100%
+  );
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  background: rgba(0, 168, 150, 0.8);
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.location-info i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.title-info h3 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  text-align: right;
+  font-weight: 700;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.title-info p {
+  font-size: 16px;
+  margin: 0;
+  text-align: right;
+  font-weight: 400;
+  opacity: 0.9;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.nav-button {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  color: #0c7b93;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button:hover {
+  background: white;
+  color: #00a896;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+.discover-more {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.discover-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background: linear-gradient(to right, #00d4ff, #00ffaa);
+  color: #1a4b8c;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 212, 255, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.discover-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 212, 255, 0.4);
+  background: linear-gradient(to right, #00ffaa, #00d4ff);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hidden-gems-container {
+    padding: 40px 0;
+  }
+
+  .header-section h3 {
+    font-size: 18px;
+  }
+
+  .header-section h2 {
+    font-size: 32px;
+  }
+
+  .theme-wrapper {
+    height: 350px;
+  }
+
+  .title-info h3 {
+    font-size: 22px;
+  }
+
+  .title-info p,
+  .location-info {
+    font-size: 14px;
+  }
+
+  .nav-button {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .discover-button {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .theme-wrapper {
+    height: 300px;
+  }
+
+  .text-overlay {
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title-info h3,
+  .title-info p {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .header-section h2 {
+    font-size: 28px;
+  }
+}

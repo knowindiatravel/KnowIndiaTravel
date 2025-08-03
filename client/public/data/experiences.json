@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Backwaters Cruise",
+    "location": "Kerala",
+    "imageUrl": "https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1024,h_640/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/qv3wwsbvjkxppgwr8jnc/AlleppeyBackwaterCruiseByHouseboat-Klook.jpg"
+  },
+  {
+    "name": "Desert Safari",
+    "location": "Rajasthan",
+    "imageUrl": "https://www.gokitetours.com/wp-content/uploads/2024/12/Top-10-Activities-to-Try-in-Dubai-Desert-Safari.webp"
+  },
+  {
+    "name": "Tea Plantation Tour",
+    "location": "Assam",
+    "imageUrl": "https://www.resort98acres.com/wp-content/uploads/2014/10/1360-654-10-480x231.jpg"
+  },
+  {
+    "name": "Ayurvedic Retreat",
+    "location": "Kerala",
+    "imageUrl": "https://scdn.aro.ie/Sites/50/anandaspa/uploads/images/PanelImages/General/Meditation_1.jpg"
+  },
+  {
+    "name": "Snow Trek",
+    "location": "Himachal Pradesh",
+    "imageUrl": "https://trekthehimalayas.com/images/HomePageImages/Desktop/cc195f32-1a7e-4220-8a2e-75fa8f8f158a_winter-kuari-pass-trek-uttarakhand.webp"
+  },
+  {
+    "name": "Cultural Walk",
+    "location": "Varanasi",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKI2ja951bwDx19oT3l_-VnCfFUmT5r3-lCw&s"
+  },
+  {
+    "name": "Surfing",
+    "location": "Goa",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_gvIdzw7cMLdRbvfPyJGm2aXa8cNubwmE0A&s"
+  },
+  {
+    "name": "Wildlife Safari",
+    "location": "Madhya Pradesh",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMf7MJdVV4bbDGhDESlCX-C9lzj8bbcq-prw&s"
+  },
+  {
+    "name": "Heritage Tour",
+    "location": "Delhi",
+    "imageUrl": "https://media.istockphoto.com/id/2161498980/photo/woman-walking-on-crowded-street-in-old-town-of-jaisalmer-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=t7YkfMlPA1yykoBV9vlfuVpqWqyZMtusisx5XaYfXMw="
+  },
+  {
+    "name": "Mountain Biking",
+    "location": "Uttarakhand",
+    "imageUrl": "https://media.istockphoto.com/id/2184114772/photo/boy-riding-bicycle-on-rocks-against-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=bNcs4OExqvBqgk-qwd2soL3gnwNfQpZUfSe3LIyKpHU="
+  },
+  {
+    "name": "Camel Fair Visit",
+    "location": "Pushkar",
+    "imageUrl": "https://media.istockphoto.com/id/1403980300/photo/ornate-camels-and-ferris-wheels-at-pushkar-camel-fair.webp?a=1&b=1&s=612x612&w=0&k=20&c=DGo_0EZ7h3YsYNfeW5lMajU7IJsYUlPyrw14LT0XJTU="
+  },
+  {
+    "name": "Yoga Retreat",
+    "location": "Rishikesh",
+    "imageUrl": "https://media.istockphoto.com/id/1085851836/photo/young-woman-practicing-yoga-in-india-at-the-famous-taj-mahal-at-sunrise-headstand-position.webp?a=1&b=1&s=612x612&w=0&k=20&c=fS7GCk5HoMekqtr305wT_70AgRB1Z9Yq66vO-b1SmD0="
+  }
+]

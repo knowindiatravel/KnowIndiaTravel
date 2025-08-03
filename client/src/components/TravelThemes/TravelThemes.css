@@ -1,0 +1,207 @@
+/* TravelThemes.css */
+.travel-themes-section {
+  background: linear-gradient(135deg, #0a4da3, #00b4b4);
+  padding: 1rem 0;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 4rem;
+  border-radius: 5px;
+}
+
+.travel-themes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.travel-themes-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.travel-themes-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.travel-themes-header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.theme-carousel-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.theme-carousel {
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.theme-carousel-track {
+  display: flex;
+  width: 100%;
+}
+
+.theme-card {
+  flex: 0 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.theme-card:hover {
+  transform: translateY(-5px);
+}
+
+.theme-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.theme-image-container {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  aspect-ratio: 4/3;
+}
+
+.theme-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.theme-card:hover .theme-image {
+  transform: scale(1.05);
+}
+
+.theme-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2));
+}
+
+.theme-title {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+}
+
+.carousel-nav-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-nav-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.prev-button {
+  left: -24px;
+}
+
+.next-button {
+  right: -24px;
+}
+
+.view-all-button-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.view-all-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: white;
+  color: #0a4da3;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.view-all-button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.view-all-button svg {
+  transition: transform 0.3s ease;
+}
+
+.view-all-button:hover svg {
+  transform: translateX(3px);
+}
+
+@media (max-width: 992px) {
+  .theme-card {
+    width: 50% !important; /* Show 2 items on tablet */
+  }
+}
+
+@media (max-width: 768px) {
+  .travel-themes-header h2 {
+    font-size: 2rem;
+  }
+
+  .theme-card {
+    width: 100% !important; /* Show 1 item on mobile */
+  }
+
+  .carousel-nav-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .prev-button {
+    left: -10px;
+  }
+
+  .next-button {
+    right: -10px;
+  }
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Aga Khan Palace",
+    "location": "Pune",
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/ac/cb/70/the-palace.jpg?w=1200&h=-1&s=1"
+  },
+  {
+    "name": "Bara Imambara",
+    "location": "Lucknow",
+    "imageUrl": "https://static.toiimg.com/photo/msid-38469409,width-96,height-65.cms"
+  },
+  {
+    "name": "Victoria Memorial",
+    "location": "Kolkata",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Victoria_Memorial_situated_in_Kolkata.jpg"
+  },
+  {
+    "name": "City Palace",
+    "location": "Jaipur",
+    "imageUrl": "https://s7ap1.scene7.com/is/image/incredibleindia/city-palace-jaipur-rajasthan-1?qlt=82&ts=1742164664970"
+  },
+  {
+    "name": "Qutub Minar",
+    "location": "Delhi",
+    "imageUrl": "https://cdn.firstcry.com/education/2022/06/30175207/Essay-on-Qutub-Minar.jpg"
+  },
+  {
+    "name": "Gateway of India",
+    "location": "Mumbai",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEXpQ_htDK8I0ApCT30DTqLxwd50bjxSf4Nw&s"
+  },
+  {
+    "name": "Taj Mahal",
+    "location": "Agra",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1200px-Taj_Mahal_%28Edited%29.jpeg"
+  },
+  {
+    "name": "Mysore Palace",
+    "location": "Mysuru",
+    "imageUrl": "https://dwq3yv87q1b43.cloudfront.net/public/blogs/fit-in/1200x675/Blog_20241130-237756404-1732944745.jpg"
+  },
+  {
+    "name": "Charminar",
+    "location": "Hyderabad",
+    "imageUrl": "https://indiainfrahub.com/wp-content/uploads/2020/08/Charminar.jpg"
+  },
+  {
+    "name": "Amber Fort",
+    "location": "Jaipur",
+    "imageUrl": "https://imgcdn.flamingotravels.co.in/Images/PlacesOfInterest/Amer-Fort-40.jpg"
+  },
+  {
+    "name": "Golden Temple",
+    "location": "Amritsar",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/1200px-The_Golden_Temple_of_Amrithsar_7.jpg"
+  },
+  {
+    "name": "Meenakshi Temple",
+    "location": "Madurai",
+    "imageUrl": "https://i.natgeofe.com/n/b9e9b8d1-fa08-4b90-96bb-310cace03847/meenakshi-amman-temple-india.jpg"
+  },
+  {
+    "name": "Sun Temple",
+    "location": "Konark",
+    "imageUrl": "https://media.assettype.com/TNIE%2Fimport%2F2020%2F1%2F25%2Foriginal%2FKonark_Sun_temple.jpg?w=480&auto=format%2Ccompress&fit=max"
+  },
+  {
+    "name": "Red Fort",
+    "location": "Delhi",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx7pGty-REVxjwQheQn2GR_h8bzfI_cCYENA&s"
+  },
+  {
+    "name": "Sanchi Stupa",
+    "location": "Madhya Pradesh",
+    "imageUrl": "https://media.istockphoto.com/id/531242257/photo/great-stupa-sanchi-madhya-pradesh-india.jpg?s=612x612&w=0&k=20&c=yKXXYCPv7ry00uMRFUrWAEevEsJd17-cKbiTTMxreSI="
+  },
+  {
+    "name": "Hawa Mahal",
+    "location": "Jaipur",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAKy-9Us7APjgYCIC9Q9ndHr4d0Wc5IFrACw&s"
+  },
+  {
+    "name": "Jaisalmer Fort",
+    "location": "Jaisalmer",
+    "imageUrl": "https://res.cloudinary.com/kmadmin/image/upload/v1723014813/kiomoi/Jaisalmer_Fort_%282%29_9552.jpg"
+  },
+  {
+    "name": "Gateway of India",
+    "location": "Mumbai",
+    "imageUrl": "https://www.historyhit.com/app/uploads/bis-images/5153612/Gateway-of-India-788x537.jpg?x92500"
+  },
+  {
+    "name": "Lotus Temple",
+    "location": "Delhi",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/LotusDelhi.jpg"
+  },
+  {
+    "name": "Elephanta Caves",
+    "location": "Mumbai",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIBI1ChdWJLINF_IStgvFniizvlpmXHXYp2w&s"
+  },
+  {
+    "name": "Brihadeeswara Temple",
+    "location": "Thanjavur",
+    "imageUrl": "https://static.wixstatic.com/media/35364f_5b5ce4ffb5684f46922e67664a63fe93~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/35364f_5b5ce4ffb5684f46922e67664a63fe93~mv2.jpg"
+  },
+  {
+    "name": "Golconda Fort",
+    "location": "Hyderabad",
+    "imageUrl": "https://www.savaari.com/blog/wp-content/uploads/2022/10/Golkonda-fort.jpg"
+  },
+  {
+    "name": "Mahabalipuram Shore Temple",
+    "location": "Tamil Nadu",
+    "imageUrl": "https://s7ap1.scene7.com/is/image/incredibleindia/1-shore-temple-mamallapuram-2-attr-hero?qlt=82&ts=1726654555333"
+  },
+  {
+    "name": "Mehrangarh Fort",
+    "location": "Jodhpur",
+    "imageUrl": "https://s7ap1.scene7.com/is/image/incredibleindia/mehrangarh-fort-jodhpur-rajasthan-hero?qlt=82&ts=1742164664970"
+  },
+  {
+    "name": "Ajanta Caves",
+    "location": "Maharashtra",
+    "imageUrl": "https://indiaforbeginners.com/wp-content/uploads/2020/04/India-for-Beginners-custom-tours-5.jpg"
+  },
+  {
+    "name": "Nalanda University Ruins",
+    "location": "Bihar",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Temple_No.-_3%2C_Nalanda_Archaeological_Site.jpg"
+  },
+  {
+    "name": "Khajuraho Temples",
+    "location": "Madhya Pradesh",
+    "imageUrl": "https://static.toiimg.com/thumb/64665528/Khajuraho-Temples.jpg?width=1200&height=900"
+  },
+  {
+    "name": "Backwaters",
+    "location": "Kerala",
+    "imageUrl": "https://dwq3yv87q1b43.cloudfront.net/public/blogs/fit-in/1200x675/Blog_20241010-942624340-1728560023.jpg"
+  }
+]

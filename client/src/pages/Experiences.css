@@ -1,0 +1,133 @@
+.experiences-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #444;
+  font-weight: 700;
+}
+
+.page-title span {
+  display: block;
+  font-size: 1.6rem;
+  color: #888;
+  font-weight: 400;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* always 3 columns on desktop */
+  gap: 24px;
+}
+
+.grid.fade-out {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.grid.fade-in {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 220px; /* adjust image height */
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 14px;
+}
+
+.card-info h4 {
+  margin: 8px 0 4px;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.card-info p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.card-info .location {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #00695c;
+  background: #e0f2f1;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.location-icon {
+  font-size: 1rem;
+  color: #00897b;
+}
+
+.pagination {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  border: none;
+  background: #444;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.pagination span {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Responsive: switch to 2 columns below 768px */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* And 1 column on very small screens */
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

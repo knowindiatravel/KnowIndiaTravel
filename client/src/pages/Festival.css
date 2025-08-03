@@ -1,0 +1,134 @@
+.festivals-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.festival-page-title {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #444;
+  font-weight: 700;
+}
+.festival-page-title span {
+  display: block;
+  font-size: 1.6rem;
+  color: #888;
+  font-weight: 400;
+}
+
+.festival-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.festival-grid.fade-out {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.festival-grid.fade-in {
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+
+.festival-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.festival-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.festival-image-wrapper {
+  position: relative;
+}
+.festival-date-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #00897b;
+  color: #fff;
+  padding: 6px 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.festival-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.festival-card-info {
+  padding: 14px;
+}
+.festival-card-info h4 {
+  margin: 8px 0 6px;
+  font-size: 1.1rem;
+  color: #222;
+}
+.festival-description {
+  margin: 0 0 4px;
+  font-size: 0.95rem;
+  color: #555;
+}
+.festival-location {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #00695c;
+  background: #e0f2f1;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.05);
+}
+.festival-location-icon {
+  font-size: 1rem;
+  color: #00897b;
+}
+
+.festival-pagination {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.festival-pagination button {
+  padding: 8px 16px;
+  border: none;
+  background: #444;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.festival-pagination button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+.festival-pagination span {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .festival-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .festival-grid {
+    grid-template-columns: 1fr;
+  }
+}

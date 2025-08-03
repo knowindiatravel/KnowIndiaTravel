@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Diwali",
+    "date": "2025-10-20",
+    "description": "The festival of lights symbolizing the victory of light over darkness.",
+    "location": "Across India",
+    "imageUrl": "https://media.istockphoto.com/id/2175628853/photo/happy-couple-opening-diwali-gift-at-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=gKtTCiPASVOXCismeDEhK3cjsp0pyOhundDaicgzrQU="
+  },
+  {
+    "name": "Holi",
+    "date": "2025-03-14",
+    "description": "A vibrant festival of colors celebrated with joy and enthusiasm.",
+    "location": "Across India",
+    "imageUrl": "https://media.istockphoto.com/id/2165337355/photo/people-enjoying-holi-outdoors.webp?a=1&b=1&s=612x612&w=0&k=20&c=GtTVhPpG387XugQBK0Lnh7MMEgrvgGgc-H0xeA_XFf4="
+  },
+  {
+    "name": "Pushkar Camel Fair",
+    "date": "2025-11-05",
+    "description": "One of the world's largest camel fairs, featuring trading, competitions, and cultural events.",
+    "location": "Pushkar, Rajasthan",
+    "imageUrl": "https://images.unsplash.com/photo-1717131553948-13c2c59c7293?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UHVzaGthciUyMENhbWVsJTIwRmFpcnxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "name": "Durga Puja",
+    "date": "2025-10-10",
+    "description": "A major festival celebrating the goddess Durga's victory over evil, marked by elaborate decorations and cultural performances.",
+    "location": "Kolkata, West Bengal",
+    "imageUrl": "https://media.istockphoto.com/id/185897873/photo/goddess-during-durga-puja-celebrations.webp?a=1&b=1&s=612x612&w=0&k=20&c=Xa37PsGGLDP_ldGkcAY1D7DpGfsXS7oDgqsO92S-JLk="
+  },
+  {
+    "name": "Chhath Puja",
+    "date": "2025-11-07",
+    "description": "A festival dedicated to the Sun God, involving holy bathing, fasting, and offerings to the setting and rising sun.",
+    "location": "Bihar, Jharkhand, Uttar Pradesh",
+    "imageUrl": "https://media.istockphoto.com/id/2157552744/photo/holy-offerings-for-hindu-sun-god-at-chhath-festival-unique-perspective.webp?a=1&b=1&s=612x612&w=0&k=20&c=TWLDZ4ExEWw_vP1DUErRp5UeOLzlw2-i23wsNMy-a4w="
+  },
+  {
+    "name": "Onam",
+    "date": "2025-09-05",
+    "description": "A harvest festival celebrated with feasts, boat races, and traditional dances.",
+    "location": "Kerala",
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1682090798009-4c7fe8ea64b6?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8b25hbXxlbnwwfHwwfHx8MA%3D%3D"
+  },
+  {
+    "name": "Hornbill Festival",
+    "date": "2025-12-01",
+    "description": "A vibrant celebration showcasing the rich cultural heritage and traditions of Nagaland's tribes.",
+    "location": "Nagaland",
+    "imageUrl": "https://images.unsplash.com/photo-1565792425752-021975ca2ae5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SG9ybmJpbGwlMjBGZXN0aXZhbCUyMG5hZ2FsYW5kfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Pongal",
+    "date": "2025-01-14",
+    "description": "A harvest festival dedicated to the Sun God, celebrated with traditional cooking and decorations.",
+    "location": "Tamil Nadu",
+    "imageUrl": "https://images.unsplash.com/photo-1673352108948-8931b5bdc2f8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9uZ2FsfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Ganesh Chaturthi",
+    "date": "2025-09-02",
+    "description": "Celebrates the birth of Lord Ganesha with grand processions and immersions of idols.",
+    "location": "Maharashtra",
+    "imageUrl": "https://images.unsplash.com/photo-1615565016685-19b0cda2e09c?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FuZXNoJTIwY2hhdHVydGhpfGVufDB8fDB8fHww"
+  },
+  {
+    "name": "Eid al-Fitr",
+    "date": "2025-03-30",
+    "description": "Marks the end of Ramadan, celebrated with prayers, feasts, and charity.",
+    "location": "Across India",
+    "imageUrl": "https://media.istockphoto.com/id/545279702/photo/eid-prayer-in-taj-mahal.webp?a=1&b=1&s=612x612&w=0&k=20&c=_P3a3khuiiUiGaR9RLsdv11GgEcAzZJ5Oq10tlaL1iA="
+  },
+  {
+    "name": "Christmas",
+    "date": "2025-12-25",
+    "description": "Celebrates the birth of Jesus Christ with midnight masses, carols, and festive decorations.",
+    "location": "Across India",
+    "imageUrl": "https://media.istockphoto.com/id/626426780/photo/immaculate-conception-cathedral.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZJvNLskTw7sysKEQJ_yoAKcF7oTQUq4OF4A7mAurOoo="
+  },
+  {
+    "name": "Rath Yatra",
+    "date": "2025-07-07",
+    "description": "A grand chariot festival dedicated to Lord Jagannath, with massive processions.",
+    "location": "Puri, Odisha",
+    "imageUrl": "https://img.manoramayearbook.in/content/dam/yearbook/learn/world/images/2024/july/rath-yatra-7b.jpg"
+  },
+  {
+    "name": "Baisakhi",
+    "date": "2025-04-13",
+    "description": "Celebrates the Sikh New Year and the harvest season with fairs and dances.",
+    "location": "Punjab",
+    "imageUrl": "https://media.istockphoto.com/id/1500853409/photo/punjabi-sikh-family-doing-bhangra-dance-in-agriculture-field-celebrating-baisakhi-or-vaisakhi.webp?a=1&b=1&s=612x612&w=0&k=20&c=y_QzB3_VPx9ZZzZOgwkoER0SlFkgZfytaB41tQmYofM="
+  },
+  {
+    "name": "Makar Sankranti",
+    "date": "2025-01-14",
+    "description": "A kite-flying festival marking the transition of the sun into the zodiac sign of Capricorn.",
+    "location": "Across India",
+    "imageUrl": "https://media.istockphoto.com/id/1361405485/photo/harvest-festival-is-celebrated-as-makar-sankranti-lohri-uttarayan-maghi-poush-sankranthi-magh.webp?a=1&b=1&s=612x612&w=0&k=20&c=01RXAA_u2LIPeDMqeQ7ypz17tCNtSwGOMvAaKIDldQs="
+  },
+  {
+    "name": "Navratri",
+    "date": "2025-10-03",
+    "description": "A nine-night festival dedicated to the worship of the goddess Durga, celebrated with dance and fasting.",
+    "location": "Gujarat",
+    "imageUrl": "https://media.istockphoto.com/id/2177187962/photo/beautiful-indian-young-hindu-bride-holding-dandiya-dance-during-navratri-stock-photo.webp?a=1&b=1&s=612x612&w=0&k=20&c=Wz-3ED47xeelWYnVEio9w2xagVV8Vxf45pE6dAEHqVQ="
+  },
+  {
+    "name": "Janmashtami",
+    "date": "2025-08-24",
+    "description": "Celebrates the birth of Lord Krishna with fasting, prayers, and reenactments of his life.",
+    "location": "Across India",
+    "imageUrl": "https://media.istockphoto.com/id/994984594/photo/little-girl-in-krishna-dress.webp?a=1&b=1&s=612x612&w=0&k=20&c=b72VnibaYMa6ibmR7OuS1_z2vlFswp8HeRF6pNGC8bU="
+  },
+  {
+    "name": "Gudi Padwa",
+    "date": "2025-04-01",
+    "description": "Celebrates the Marathi New Year with street processions and festive foods.",
+    "location": "Maharashtra",
+    "imageUrl": "https://media.istockphoto.com/id/925608124/photo/indian-family-celebrating-gudi-padwa-or-ugadi-festival-which-is-a-new-year-in-hindu-tradition.webp?a=1&b=1&s=612x612&w=0&k=20&c=VTcz7CzD-QWj-WX2k7gg6JTq9a3Tzf-UOjljZWsKEKg="
+  },
+  {
+    "name": "Bihu",
+    "date": "2025-04-14",
+    "description": "A series of festivals marking the Assamese New Year and harvest season with music and dance.",
+    "location": "Assam",
+    "imageUrl": "https://media.istockphoto.com/id/1364067080/photo/bhogali-bihu-preparation.webp?a=1&b=1&s=612x612&w=0&k=20&c=XE-f2kxIOH3XEWPQqzWdX4dEkSttFzNPN0uXEVQ14kI="
+  },
+  {
+    "name": "Lohri",
+    "date": "2025-01-13",
+    "description": "A popular winter folk festival celebrated with bonfires and traditional songs.",
+    "location": "Punjab",
+    "imageUrl": "https://media.istockphoto.com/id/1125854141/photo/image-of-big-bonfire-flames-at-punjab-sikh-lohri-festival-in-new-delhi-india-burning-wood.webp?a=1&b=1&s=612x612&w=0&k=20&c=3a-R_cXRi2SV_k0ZuxDzSrUpyjODj-WE1V0hBxlo8hk="
+  },
+  {
+    "name": "Raksha Bandhan",
+    "date": "2025-08-17",
+    "description": "Celebrates the bond between brothers and sisters with the tying of rakhis.",
+    "location": "Across India",
+    "imageUrl": "https://media.istockphoto.com/id/1560030310/photo/happy-young-indian-girl-tying-rakhi-to-brother-hand-during-raksha-bandhan-festival-at-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=y5FXT1VG1Na5ymDi7zwgNNuzn7MyVOjhhQa8otO_P3g="
+  },
+  {
+    "name": "Saraswati Puja",
+    "date": "2025-02-02",
+    "description": "Dedicated to the goddess of knowledge, music, and arts, celebrated with cultural activities.",
+    "location": "West Bengal, Odisha, and Assam",
+    "imageUrl": "https://media.istockphoto.com/id/484427514/photo/women-applying-ritualistic-vermilion-on-each-other-during-durga-puja.webp?a=1&b=1&s=612x612&w=0&k=20&c=ZgiMjvwJw5XD2PYPxeNZTG7Eec-8cHGC4LgRRc1sAbs="
+  },
+
+  {
+    "name": "Maha Shivaratri",
+    "date": "2025-02-25",
+    "description": "A festival celebrating Lord Shiva, observed with fasting, night vigils, and prayers.",
+    "location": "Across India",
+    "imageUrl": "https://media.istockphoto.com/id/678595884/photo/huge-shiva-statue-at-parikrima-path-in-omkareshwar-madhya-pradesh-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=I4-yIktNtJ5izwPwQrTGNi3w22Bepw898F5byP3qLEA="
+  },
+
+  {
+    "name": "Kumbh Mela",
+    "date": "2025-01-14",
+    "description": "A massive pilgrimage and festival celebrated at four different locations in India, marked by ritual bathing in rivers.",
+    "location": "Rotates between Prayagraj, Haridwar, Nashik, and Ujjain",
+    "imageUrl": "https://media.istockphoto.com/id/668989666/photo/kumbh-mela-festival-in-allahabad-uttar-pradesh-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=ynSn7LDBpqtt9YfKaJ7Ty6H3zBwEDPy7uomy7spIjjM="
+  }
+]
