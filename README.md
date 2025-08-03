@@ -22,7 +22,7 @@
 
 ## Quick Start 🚀
 # Clone repo
-git clone https://github.com/yourusername/KnowIndiaTravel.git
+git clone https://github.com/knowindiatravel/KnowIndiaTravel.git
 
 # Install dependencies
 cd KnowIndiaTravel
